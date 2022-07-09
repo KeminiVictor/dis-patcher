@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+@font-face {
+    font-family: gilroy;
+    src: url(../assets/fonts/evolventa-cufonfonts/Evolventa-Bold.otf);
+    src: url(../assets/fonts/evolventa-cufonfonts/Evolventa-BoldOblique.otf);
+    src: url(../assets/fonts/evolventa-cufonfonts/Evolventa-Oblique.otf);
+    src: url(../assets/fonts/evolventa-cufonfonts/Evolventa-Regular.otf);
+    font-weight: 700 !important;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.h1,
+.h2,
+.h3,
+.h4 {
+    font-family: gilroy !important;
+    font-weight: 700 !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: gilroy !important;
+    font-weight: 700 !important;
+}
+
+.font-1 {
+    font-family: gilroy, sans-serif;
+}
+
+.font-2 {
+    font-family: "Roboto", sans-serif;
+}
+
+.w-max {
+    width: max-content;
+}
+
+.h-max {
+    height: max-content;
+}
+
+.col-primary {
+    color: #C91830;
+    font-weight: inherit;
+}
+
+.background-primary {
+    background-color: #C91830 !important;
+}
+
+.top-25 {
+    top: 25%;
+}
+
+.px-6 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.py-6 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.px-7 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.my-7 {
+    margin-top: 5.5rem !important;
+    margin-bottom: 5.5rem !important;
+}
+
+ul li,
+ul {
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+
+@media screen and (max-width:767px) {
+    .px-7 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

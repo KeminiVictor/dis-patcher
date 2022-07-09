@@ -1,0 +1,31 @@
+.contact-detail>li {
+    padding-top: 17px;
+}
+
+.w-lg-75 {
+    width: 100%;
+}
+
+button.btn {
+    border: 2px solid black;
+    font-weight: 500;
+}
+
+button.btn.active {
+    border: 2px solid #C91830 !important;
+    background-color: var(--dark-primary);
+    color: white;
+}
+
+button.btn:hover {
+    border-color: #C91830 !important;
+    background-color: var(--dark-primary);
+    color: white;
+    transition-duration: 0.3s;
+}
+
+@media screen and (min-width:991px) {
+    .w-lg-75 {
+        width: 85%;
+    }
+}
